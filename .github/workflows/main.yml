@@ -2,7 +2,7 @@
 
 name: CI
 
-# Controls when the action will run. 
+# Controls when the action will run.
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
@@ -29,11 +29,10 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '12.x'
-          
+
       - run: npm ci
       - run: npm install -g @angular/cli
       - run: npm install angular-cli-ghpages
       - run: npm run deploy
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          echo test, and deploy your project.
