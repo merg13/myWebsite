@@ -122,8 +122,17 @@
               "devServerTarget": "MyWebsite:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://merg13.github.io/site/",
+            "name": "Mitchell Ergen",
+            "email": "mitchellergen@gmail.com"
+          }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "MyWebsite"
 }
