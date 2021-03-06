@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { EducationComponent } from './education/education.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ProfessionalComponent } from './professional/professional.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
