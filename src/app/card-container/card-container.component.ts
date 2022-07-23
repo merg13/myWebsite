@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Content } from '@angular/compiler/src/render3/r3_ast';
-import { ContentCardComponent } from '../content-card/content-card.component';
 
 @Component({
   selector: 'card-container',
