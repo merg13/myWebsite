@@ -132,5 +132,7 @@
       }
     }
   },
-  "defaultProject": "MyWebsite"
+  "cli": {
+    "analytics": "8776d220-4991-49e4-90ca-2c294ff5d33a"
+  }
 }
