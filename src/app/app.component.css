@@ -1,0 +1,19 @@
+@import '../styles.css';
+
+.reservedHeader {
+    position: fixed;
+    height: fit-content;
+    min-height: fit-content;
+    max-height: fit-content;
+}
+
+.reservedBody {
+    top: 10vh;
+    position: relative;
+    height: 75vh;
+}
+
+.reservedFooter {
+    bottom: 10hv;
+    position: fixed;
+}

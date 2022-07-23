@@ -1,0 +1,28 @@
+
+.card {
+  margin: 16px;
+  width: auto;
+  max-width: auto;
+}
+
+.col1 {
+  position: relative;
+  /* border: 1px ridge red; */
+  min-width: 500px;
+  display: inline-block;
+}
+
+.col2 {
+  position: relative;
+  /* border: 1px ridge red; */
+  min-width: 500px;
+  display: inline-block;
+}
+
+.row {
+  height: calc(100% - 16px);
+  max-height: 600px;
+}
+.col-sm-6 {
+  height: calc(100% - 16px);
+}
